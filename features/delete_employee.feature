@@ -3,6 +3,8 @@ Feature: Delete Employee
 	So I can clean up a database.
 	I want to remove old employee records.
 
+  # try to avoid any reference to implementation in User stories
+
 Scenario: Deleting an Employee Record
 	When I click the "Delete Employee" button
 	And I click "Confirm Deletion"
