@@ -3,7 +3,10 @@ Feature: Purge Forms
 	So I can remove forms from a database.
 	I want to delete multiple forms simultaneously.
 
-Scenario: Remove all Forms for an Employee
+# try to avoid any reference to implementation in User stories
+
+
+  Scenario: Remove all Forms for an Employee
 	When I select an Employee
 	And I click "Purge"
 	And I click "Confirm Purge"

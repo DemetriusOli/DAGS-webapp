@@ -1,7 +1,7 @@
 Feature: Add Employee
 	As DAGS Worker
 	So I can keep track of new employees.
-	I want to store employee data in a database.
+	I want to store employee data.
 
 Scenario: add a new employee
 	When I got to the add new employee page
