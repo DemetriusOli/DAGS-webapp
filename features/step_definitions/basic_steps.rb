@@ -2,6 +2,10 @@ Given(/^that I am on the home page$/) do
   visit 'index.html'
 end
 
+When(/^I got to the add new employee page$/) do
+  visit 'new_employee.html'
+end
+
 Then(/^I should see "(.*?)"$/) do |content|
   page.should have_content content
 end
