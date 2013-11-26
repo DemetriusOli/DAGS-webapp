@@ -3,7 +3,10 @@ Feature: Delete Form
 	So individual forms can be removed from the database.
 	I want to remove a single form.
 
-Scenario: Delete a Single Form
+# try to avoid any reference to implementation in User stories
+
+
+  Scenario: Delete a Single Form
 	When I select a form
 	And I click "Delete Form"
 	And I click "Confirm Deletion"

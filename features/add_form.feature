@@ -1,7 +1,13 @@
 Feature: Add New Form
 	As a DAGS Worker
-	So I can file new forms into a database.
+	So I can create a new submission form.
 	I want to make and store a new form.
+
+  # this sounds like entering data through a form
+  # not creating a new form
+
+  # also need to be clear about the high level goal
+  # must be different from the actual task
 
 Scenario: Creating a Blank Form
 	When I click "Create New Form" button

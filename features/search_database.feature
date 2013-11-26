@@ -3,7 +3,10 @@ Feature: Search database
 	So I can quickly find employee forms.
 	I want to query the database.
 
-Scenario: Search Database
+# try to avoid any reference to implementation in User stories
+
+
+  Scenario: Search Database
 	When I go to the search field
 	And I fill in "Last Name" with "John"
 	And I fill in "First Name" with "Doe"
